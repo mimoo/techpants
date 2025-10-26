@@ -87,3 +87,108 @@
   link_text: Shop Columbia
   tags:
     - outdoor
+- brand: Rhone
+  model: Commuter Five Pocket Pant
+  price: "~$138"
+  price_numeric: 138
+  link: https://www.rhone.com/products/mens-commuter-five-pocket
+  link_text: Shop Rhone
+  tags:
+    - office
+    - travel
+    - golf
+
+- brand: Peter Millar
+  model: Surge Performance Trouser
+  price: "~$198"
+  price_numeric: 198
+  link: https://www.petermillar.com/p/surge-performance-trouser/me0xb00fb.html
+  link_text: Shop Peter Millar
+  tags:
+    - office
+    - travel
+    - luxury
+
+- brand: UNTUCKit
+  model: Traveler Tech Pant
+  price: "~$128"
+  price_numeric: 128
+  link: https://www.untuckit.com/products/traveler-pant
+  link_text: Shop UNTUCKit
+  tags:
+    - office
+    - travel
+
+- brand: KÜHL
+  model: Klash Pant
+  price: "~$139"
+  price_numeric: 139
+  link: https://www.kuhl.com/kuhl/mens/pants/ms-klash-pant
+  link_text: Shop KÜHL
+  tags:
+    - outdoor
+    - travel
+
+- brand: Awearness Kenneth Cole
+  model: Slim Fit Performance Tech 5-Pocket Pant
+  price: "~$79.99"
+  price_numeric: 79.99
+  link: https://www.menswearhouse.com/p/awearness-kenneth-cole-essentials-slim-fit-stretch-performance-tech-5-pocket-pant-tmw-200b
+  link_text: Shop Men's Wearhouse
+  tags:
+    - office
+    - travel
+
+- brand: TravisMathew
+  model: Open To Close Tech Knit Pant
+  price: "~$149.95"
+  price_numeric: 149.95
+  link: https://www.travismathew.com/products/open-to-close-tech-knit-pant
+  link_text: Shop TravisMathew
+  tags:
+    - golf
+    - travel
+    - casual
+
+- brand: Eddie Bauer
+  model: Tech Chino Pant
+  price: "~$49.99"
+  price_numeric: 49.99
+  link: https://www.eddiebauer.com/p/men-s-tech-chino-pant
+  link_text: Shop Eddie Bauer
+  tags:
+    - outdoor
+    - travel
+    - budget
+
+- brand: Jos. A. Bank
+  model: Traveler COOLMOTION 5-Pocket Pant
+  price: "~$49.99"
+  price_numeric: 49.99
+  link: https://www.josbank.com/p/traveler-coolmotion-tailored-fit-performance-5-pocket-pants
+  link_text: Shop Jos. A. Bank
+  tags:
+    - office
+    - travel
+
+- brand: KÜHL
+  model: Free Radikl Pant
+  price: "~$109"
+  price_numeric: 109
+  link: https://www.kuhl.com/kuhl/mens/pants/free-radikl
+  link_text: Shop KÜHL
+  tags:
+    - outdoor
+    - trail
+    - travel
+
+- brand: Public Rec
+  model: All Day Every Day Pant
+  price: "~$108"
+  price_numeric: 108
+  link: https://www.publicrec.com/products/all-day-every-day-pant
+  link_text: Shop Public Rec
+  tags:
+    - travel
+    - casual
+    - athletic

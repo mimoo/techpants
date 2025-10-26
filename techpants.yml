@@ -192,3 +192,24 @@
     - travel
     - casual
     - athletic
+- brand: Arc’teryx Veilance
+  model: Spere Tech Wool Pant
+  price: "~$400"
+  price_numeric: 400
+  link: https://www.arcteryx.com/us/en/shop/mens/veilance/spere-tech-wool-pant
+  link_text: Shop Arc'teryx Veilance
+  tags:
+    - office
+    - travel
+    - luxury
+
+- brand: Arc’teryx Veilance
+  model: Voronoi Pant
+  price: "~$350"
+  price_numeric: 350
+  link: https://www.arcteryx.com/us/en/shop/mens/veilance/voronoi-pant
+  link_text: Shop Arc'teryx Veilance
+  tags:
+    - travel
+    - casual
+    - luxury

@@ -265,11 +265,6 @@
         Use Case
         <select id="tagFilter">
           <option value="all">All</option>
-          <option value="office">Office</option>
-          <option value="travel">Travel</option>
-          <option value="outdoor">Outdoor</option>
-          <option value="athletic">Athletic</option>
-          <option value="golf">Golf</option>
         </select>
       </label>
       <button type="button" id="resetFilters">Reset</button>
@@ -288,184 +283,210 @@
               <th scope="col">Tags</th>
             </tr>
           </thead>
-          <tbody id="techPantsTable">
-            <tr data-price="138" data-tags="office travel">
-              <td>Lululemon</td>
-              <td>ABC Slim-Fit Trouser (Warpstreme)</td>
-              <td>~$138</td>
-              <td><a href="https://shop.lululemon.com/p/mens-trousers/ABC-Slim-Trouser-30/_/prod11500063" target="_blank" rel="noopener">Shop Lululemon</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Office</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="49.90" data-tags="athletic travel">
-              <td>Uniqlo</td>
-              <td>Ultra Stretch Active Pants</td>
-              <td>~$49.90</td>
-              <td><a href="https://www.uniqlo.com/us/en/products/E481718-000/00" target="_blank" rel="noopener">Shop Uniqlo</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Athletic</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="79.49" data-tags="outdoor travel">
-              <td>5.11 Tactical</td>
-              <td>Traction Tech Pant</td>
-              <td>~$79.49</td>
-              <td><a href="https://www.511tactical.com/traction-tech-pant.html" target="_blank" rel="noopener">Shop 5.11 Tactical</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Outdoor</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="41.70" data-tags="office travel">
-              <td>Levi's</td>
-              <td>511 Slim-Fit Flex Tech Pants</td>
-              <td>~$41.70</td>
-              <td><a href="https://www.macys.com/shop/product/levis-mens-511-slim-fit-flex-tech-pants?ID=17210262" target="_blank" rel="noopener">Shop Macy's</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Office</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="79.00" data-tags="office travel">
-              <td>Bonobos</td>
-              <td>Tech Trouser Pants</td>
-              <td>~$79.00</td>
-              <td><a href="https://bonobos.com/products/tech-trouser" target="_blank" rel="noopener">Shop Bonobos</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Office</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="70.00" data-tags="golf athletic">
-              <td>Under Armour</td>
-              <td>Matchplay Tech Pants</td>
-              <td>~$70.00</td>
-              <td><a href="https://www.kohls.com/product/prd-3859135/mens-under-armour-tech-moisturewicking-golf-pants.jsp" target="_blank" rel="noopener">Shop Kohl's</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Golf</span>
-                  <span class="tag">Athletic</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="53.40" data-tags="office travel">
-              <td>Calvin Klein</td>
-              <td>Slim-Fit Wrinkle-Resistant Tech Pants</td>
-              <td>~$53.40</td>
-              <td><a href="https://www.macys.com/shop/product/calvin-klein-mens-slim-fit-stretch-wrinkle-resistant-tech-pants?ID=22380981" target="_blank" rel="noopener">Shop Macy's</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Office</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="49.99" data-tags="outdoor travel">
-              <td>Haggar</td>
-              <td>Sport Performance Nylon Tech Pants</td>
-              <td>~$49.99</td>
-              <td><a href="https://www.haggar.com/products/haggar-sport-travel-performance-nylon-5-pocket-tech-pant" target="_blank" rel="noopener">Shop Haggar</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Outdoor</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="98.00" data-tags="outdoor travel">
-              <td>Janji</td>
-              <td>Transit Tech Pants</td>
-              <td>~$98.00</td>
-              <td><a href="https://janji.com/products/ms-transit-tech-pant" target="_blank" rel="noopener">Shop Janji</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Outdoor</span>
-                  <span class="tag">Travel</span>
-                </div>
-              </td>
-            </tr>
-            <tr data-price="65.00" data-tags="outdoor">
-              <td>Columbia</td>
-              <td>Tech Trail Utility Pants</td>
-              <td>~$65.00</td>
-              <td><a href="https://www.columbia.com/p/mens-tech-trail-utility-pants-2120211.html" target="_blank" rel="noopener">Shop Columbia</a></td>
-              <td>
-                <div class="tags">
-                  <span class="tag">Outdoor</span>
-                </div>
-              </td>
-            </tr>
-          </tbody>
+          <tbody id="techPantsTable"></tbody>
         </table>
       </div>
     </div>
   </main>
 
   <footer>
-    <a href="https://x.com/cryptodavidw" target="_blank" rel="noopener">@cryptodavidw</a> &middot; &copy; <span id="currentYear"></span> techpants.io
+    <a href="https://x.com/cryptodavidw" target="_blank" rel="noopener">@cryptodavidw</a> &middot; <a href="https://github.com/mimoo/techpants" target="_blank" rel="noopener">Contribute on GitHub</a> &middot; &copy; <span id="currentYear"></span> techpants.io
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
   <script>
-    const priceFilter = document.getElementById("priceFilter");
-    const tagFilter = document.getElementById("tagFilter");
-    const resetButton = document.getElementById("resetFilters");
-    const tableRows = Array.from(document.querySelectorAll("#techPantsTable tr"));
+    (function () {
+      const priceFilter = document.getElementById("priceFilter");
+      const tagFilter = document.getElementById("tagFilter");
+      const resetButton = document.getElementById("resetFilters");
+      const tableBody = document.getElementById("techPantsTable");
 
-    function matchesPrice(value, price) {
-      const numericPrice = parseFloat(price);
-      switch (value) {
-        case "under60":
-          return numericPrice < 60;
-        case "60to100":
-          return numericPrice >= 60 && numericPrice <= 100;
-        case "over100":
-          return numericPrice > 100;
-        default:
+      const loadingRow = document.createElement("tr");
+      loadingRow.innerHTML = '<td colspan="5">Loading tech pants...</td>';
+      tableBody.appendChild(loadingRow);
+
+      let tableRows = [];
+      let emptyStateRow = null;
+
+      function ensureEmptyStateRow() {
+        if (!emptyStateRow) {
+          emptyStateRow = document.createElement("tr");
+          const cell = document.createElement("td");
+          cell.colSpan = 5;
+          cell.textContent = "No tech pants match your filters yet.";
+          emptyStateRow.appendChild(cell);
+        }
+        if (!emptyStateRow.isConnected) {
+          tableBody.appendChild(emptyStateRow);
+        }
+      }
+
+      function removeEmptyStateRow() {
+        if (emptyStateRow && emptyStateRow.isConnected) {
+          tableBody.removeChild(emptyStateRow);
+        }
+      }
+
+      function formatTagLabel(tag) {
+        return tag.replace(/\b\w/g, (char) => char.toUpperCase());
+      }
+
+      function populateTagFilter(items) {
+        while (tagFilter.options.length > 1) {
+          tagFilter.remove(1);
+        }
+        const tagSet = new Set();
+        items.forEach((item) => {
+          if (Array.isArray(item.tags)) {
+            item.tags.forEach((tag) => tagSet.add(tag));
+          }
+        });
+        Array.from(tagSet)
+          .sort()
+          .forEach((tag) => {
+            const option = document.createElement("option");
+            option.value = tag;
+            option.textContent = formatTagLabel(tag);
+            tagFilter.appendChild(option);
+          });
+      }
+
+      function renderTable(items) {
+        tableBody.innerHTML = "";
+        removeEmptyStateRow();
+        tableRows = [];
+
+        items.forEach((item) => {
+          const row = document.createElement("tr");
+          row.dataset.price = item.price_numeric;
+          row.dataset.tags = Array.isArray(item.tags) ? item.tags.join(" ") : "";
+
+          const brandCell = document.createElement("td");
+          brandCell.textContent = item.brand;
+          row.appendChild(brandCell);
+
+          const modelCell = document.createElement("td");
+          modelCell.textContent = item.model;
+          row.appendChild(modelCell);
+
+          const priceCell = document.createElement("td");
+          priceCell.textContent = item.price;
+          row.appendChild(priceCell);
+
+          const linkCell = document.createElement("td");
+          const link = document.createElement("a");
+          link.href = item.link;
+          link.target = "_blank";
+          link.rel = "noopener";
+          link.textContent = item.link_text || "Shop";
+          linkCell.appendChild(link);
+          row.appendChild(linkCell);
+
+          const tagsCell = document.createElement("td");
+          const tagsContainer = document.createElement("div");
+          tagsContainer.className = "tags";
+
+          if (Array.isArray(item.tags) && item.tags.length) {
+            item.tags.forEach((tag) => {
+              const tagChip = document.createElement("span");
+              tagChip.className = "tag";
+              tagChip.textContent = formatTagLabel(tag);
+              tagsContainer.appendChild(tagChip);
+            });
+          }
+
+          tagsCell.appendChild(tagsContainer);
+          row.appendChild(tagsCell);
+
+          tableBody.appendChild(row);
+          tableRows.push(row);
+        });
+
+        if (!tableRows.length) {
+          ensureEmptyStateRow();
+        } else {
+          applyFilters();
+        }
+      }
+
+      function matchesPrice(value, price) {
+        const numericPrice = parseFloat(price);
+        switch (value) {
+          case "under60":
+            return numericPrice < 60;
+          case "60to100":
+            return numericPrice >= 60 && numericPrice <= 100;
+          case "over100":
+            return numericPrice > 100;
+          default:
+            return true;
+        }
+      }
+
+      function matchesTag(value, tags) {
+        if (value === "all") {
           return true;
+        }
+        return tags.split(/\s+/).filter(Boolean).includes(value);
       }
-    }
 
-    function matchesTag(value, tags) {
-      if (value === "all") {
-        return true;
+      function applyFilters() {
+        if (!tableRows.length) {
+          return;
+        }
+
+        let visibleCount = 0;
+        const priceValue = priceFilter.value;
+        const tagValue = tagFilter.value;
+
+        tableRows.forEach((row) => {
+          const price = row.dataset.price || "0";
+          const tags = row.dataset.tags || "";
+          const show = matchesPrice(priceValue, price) && matchesTag(tagValue, tags);
+          row.style.display = show ? "" : "none";
+          if (show) {
+            visibleCount += 1;
+          }
+        });
+
+        if (visibleCount === 0) {
+          ensureEmptyStateRow();
+        } else {
+          removeEmptyStateRow();
+        }
       }
-      return tags.includes(value);
-    }
 
-    function applyFilters() {
-      const priceValue = priceFilter.value;
-      const tagValue = tagFilter.value;
-
-      tableRows.forEach((row) => {
-        const price = row.getAttribute("data-price");
-        const tags = row.getAttribute("data-tags");
-        const show = matchesPrice(priceValue, price) && matchesTag(tagValue, tags);
-        row.style.display = show ? "" : "none";
+      priceFilter.addEventListener("change", applyFilters);
+      tagFilter.addEventListener("change", applyFilters);
+      resetButton.addEventListener("click", () => {
+        priceFilter.value = "all";
+        tagFilter.value = "all";
+        applyFilters();
       });
-    }
 
-    priceFilter.addEventListener("change", applyFilters);
-    tagFilter.addEventListener("change", applyFilters);
-    resetButton.addEventListener("click", () => {
-      priceFilter.value = "all";
-      tagFilter.value = "all";
-      applyFilters();
-    });
+      fetch("techpants.yml")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Failed to load tech pants data.");
+          }
+          return response.text();
+        })
+        .then((yamlText) => {
+          const items = jsyaml.load(yamlText);
+          if (!Array.isArray(items)) {
+            throw new Error("techpants.yml must export a top-level array.");
+          }
+          populateTagFilter(items);
+          renderTable(items);
+        })
+        .catch((error) => {
+          console.error(error);
+          tableBody.innerHTML =
+            '<tr><td colspan="5">Unable to load tech pants. Please try again later.</td></tr>';
+        });
 
-    document.getElementById("currentYear").textContent = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+    })();
   </script>
 </body>
 </html>

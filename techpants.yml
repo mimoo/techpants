@@ -1,0 +1,89 @@
+- brand: Lululemon
+  model: ABC Slim-Fit Trouser (Warpstreme)
+  price: "~$138"
+  price_numeric: 138
+  link: https://shop.lululemon.com/p/mens-trousers/ABC-Slim-Trouser-30/_/prod11500063
+  link_text: Shop Lululemon
+  tags:
+    - office
+    - travel
+- brand: Uniqlo
+  model: Ultra Stretch Active Pants
+  price: "~$49.90"
+  price_numeric: 49.90
+  link: https://www.uniqlo.com/us/en/products/E481718-000/00
+  link_text: Shop Uniqlo
+  tags:
+    - athletic
+    - travel
+- brand: 5.11 Tactical
+  model: Traction Tech Pant
+  price: "~$79.49"
+  price_numeric: 79.49
+  link: https://www.511tactical.com/traction-tech-pant.html
+  link_text: Shop 5.11 Tactical
+  tags:
+    - outdoor
+    - travel
+- brand: "Levi's"
+  model: 511 Slim-Fit Flex Tech Pants
+  price: "~$41.70"
+  price_numeric: 41.70
+  link: https://www.macys.com/shop/product/levis-mens-511-slim-fit-flex-tech-pants?ID=17210262
+  link_text: Shop Macy's
+  tags:
+    - office
+    - travel
+- brand: Bonobos
+  model: Tech Trouser Pants
+  price: "~$79.00"
+  price_numeric: 79.00
+  link: https://bonobos.com/products/tech-trouser
+  link_text: Shop Bonobos
+  tags:
+    - office
+    - travel
+- brand: Under Armour
+  model: Matchplay Tech Pants
+  price: "~$70.00"
+  price_numeric: 70.00
+  link: https://www.kohls.com/product/prd-3859135/mens-under-armour-tech-moisturewicking-golf-pants.jsp
+  link_text: Shop Kohl's
+  tags:
+    - golf
+    - athletic
+- brand: Calvin Klein
+  model: Slim-Fit Wrinkle-Resistant Tech Pants
+  price: "~$53.40"
+  price_numeric: 53.40
+  link: https://www.macys.com/shop/product/calvin-klein-mens-slim-fit-stretch-wrinkle-resistant-tech-pants?ID=22380981
+  link_text: Shop Macy's
+  tags:
+    - office
+    - travel
+- brand: Haggar
+  model: Sport Performance Nylon Tech Pants
+  price: "~$49.99"
+  price_numeric: 49.99
+  link: https://www.haggar.com/products/haggar-sport-travel-performance-nylon-5-pocket-tech-pant
+  link_text: Shop Haggar
+  tags:
+    - outdoor
+    - travel
+- brand: Janji
+  model: Transit Tech Pants
+  price: "~$98.00"
+  price_numeric: 98.00
+  link: https://janji.com/products/ms-transit-tech-pant
+  link_text: Shop Janji
+  tags:
+    - outdoor
+    - travel
+- brand: Columbia
+  model: Tech Trail Utility Pants
+  price: "~$65.00"
+  price_numeric: 65.00
+  link: https://www.columbia.com/p/mens-tech-trail-utility-pants-2120211.html
+  link_text: Shop Columbia
+  tags:
+    - outdoor

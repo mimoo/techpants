@@ -261,6 +261,12 @@
       tbody tr:hover td:first-child {
         background: rgba(47, 128, 237, 0.08);
       }
+
+      /* Hide tags column on mobile to prevent horizontal scrolling */
+      th:nth-child(5),
+      td:nth-child(5) {
+        display: none;
+      }
     }
   </style>
 </head>
@@ -507,6 +513,8 @@
           if (!Array.isArray(items)) {
             throw new Error("techpants.yml must export a top-level array.");
           }
+          // Sort items alphabetically by brand
+          items.sort((a, b) => a.brand.localeCompare(b.brand));
           populateTagFilter(items);
           renderTable(items);
         })

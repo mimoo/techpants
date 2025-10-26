@@ -203,7 +203,7 @@
     - travel
     - luxury
 
-- brand: Arc’teryx Veilance
+- brand: Arc'teryx Veilance
   model: Voronoi Pant
   price: "~$350"
   price_numeric: 350
@@ -213,3 +213,14 @@
     - travel
     - casual
     - luxury
+
+- brand: Vuori
+  model: Cascade Tech Chino Pant
+  price: "~$128"
+  price_numeric: 128
+  link: https://vuoriclothing.com/products/cascade-tech-chino-pant-charcoal
+  link_text: Shop Vuori
+  tags:
+    - travel
+    - casual
+    - performance
